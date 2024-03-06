@@ -1,0 +1,89 @@
+2024-02-26T01:38:19+00:00 DEBUG POST: https://ads.tiktok.com/marketing_api/api/developer/app/create_auto_approve/
+
+{"business_platform":"PROD","smb_id":"tt4b_woocommerce_65dbeb8b3017bhttplocalhost8888TuongViwp-admin","smb_name":"PROD","redirect_url":"http:\/\/localhost:8888\/TuongVi\/wp-admin\/"}
+ ajax: no
+2024-02-26T01:38:19+00:00 DEBUG Tt4b_Mapi_Class::create_open_source_app: Response: 
+
+HTTP/1.1 200 OK
+Content-Type: application/json
+X-Tt-Logid: 20240226013815307C60056206DED12A64,20240226013815307C60056206DED12A64
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+x-tt-trace-host: 01628b09d1b07eee4c0ed5474e32a8930e6d39a051b6be83fff13aeb4efd53f1ec7637a887e27a121309aa8b15dce03ff5e1a4efc8c4957045dd76cad10670c99c5e49966944dd6cc29d567138351e4de90f1edd84d0044433125010b438a19a05c24a14f1e12d84fe48f2462f0ebf0e1b
+x-tt-trace-id: 00-240226013815307C60056206DED12A64-7F7018FE58483D4A-00
+Server: TLB
+Content-Encoding: gzip
+Content-Length: 214
+X-Origin-Response-Time: 129,23.200.218.38
+X-Akamai-Request-ID: 5c241dbd.2eecf20c
+Date: Mon, 26 Feb 2024 01:38:17 GMT
+X-Cache: TCP_MISS from a27-77-82-238.deploy.akamaitechnologies.com (AkamaiGHost/11.4.1-53905076) (-)
+Connection: close
+Vary: Accept-Encoding
+X-Cache-Remote: TCP_MISS from a23-200-218-38.deploy.akamaitechnologies.com (AkamaiGHost/11.4.1-53905076) (-)
+x-tt-trace-tag: id=16;cdn-cache=miss;type=dyn
+Server-Timing: cdn-cache; desc=MISS, edge; dur=45, origin; dur=128
+Server-Timing: inner; dur=123
+X-Parent-Response-Time: 171,27.77.82.238
+
+{"code":0,"msg":"ok","data":{"app_id":"7339718991478259713","redirect_uri":"http:\/\/localhost:8888\/TuongVi\/wp-admin\/","external_data_key":"3aa144b4-f03c-43af-a2dd-5a48217693e9","app_secret":"379b73a3d4fbf4168d6a15a45324b548e5735246"}}
+
+2024-02-26T01:54:24+00:00 DEBUG Tt4b_Pixel_Class::inject_initiate_checkout_event: hit InitiateCheckout
+2024-02-26T01:54:24+00:00 DEBUG Tt4b_Pixel_Class::inject_initiate_checkout_event: Missing option "access_token"
+2024-02-26T01:58:16+00:00 DEBUG POST: https://business-api.tiktok.com/tbp/v2.0/business_profile/disconnect?external_data=
+
+{"business_platform":"WOO_COMMERCE","external_business_id":"tt4b_woocommerce_65dbeb8b3017b"}
+ ajax: no
+2024-02-26T01:58:16+00:00 DEBUG Tt4b_Mapi_Class::tbp_post: Response: 
+
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+Content-Length: 95
+X-Api-Deprecation-Info: API for Business Version 1.3 is now live. To avoid disruption to your business, we recommend you migrate all calls to v1.3 as soon as possible. Please visit our migration guide for more details: https://ads.tiktok.com/marketing_api/docs?id=1740029169927169
+X-Domain-Change-Info: We have moved to the new domain business-api.tiktok.com for API services after the Platform Upgrade on 09/30/2021. Please update all of your requests with the new domain if you haven't done so already. For more information, please visit https://ads.tiktok.com/marketing_api/docs?rid=esb88xalm6m&id=1709207085043713
+X-Tt-Logid: 2024022601581532467B9095AE05C5417E
+Server-Timing: inner; dur=8
+x-tt-trace-host: 01628b09d1b07eee4c0ed5474e32a8930e96c58b77626b4064e5b762dc33cee3532157f66733c1397ae0c8913ff3ce9fa879c7a2055201d353dbb0b311908404cd2aad236f8a064f96eb7423f34853ca4f044b66244a5a160840a61d18cdf9129f
+x-tt-trace-id: 00-24022601581532467B9095AE05C5417E-129129C711480559-00
+Server: TLB
+Expires: Mon, 26 Feb 2024 01:58:16 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Mon, 26 Feb 2024 01:58:16 GMT
+X-Cache: TCP_MISS from a23-203-135-189.deploy.akamaitechnologies.com (AkamaiGHost/11.4.2.2-54704533) (-)
+Connection: close
+x-tt-trace-tag: id=16;cdn-cache=miss;type=dyn
+Server-Timing: cdn-cache; desc=MISS, edge; dur=3, origin; dur=44
+X-Origin-Response-Time: 44,23.203.135.189
+X-Akamai-Request-ID: 6b4dc21
+
+{"code":40001,"message":"Permission denied.","request_id":"2024022601581532467B9095AE05C5417E"}
+
+2024-02-26T01:58:16+00:00 DEBUG POST: https://business-api.tiktok.com/tbp/v2.0/shop/connection/disconnect?external_data=
+
+--- EMPTY STRING ---
+ ajax: no
+2024-02-26T01:58:16+00:00 DEBUG Tt4b_Mapi_Class::tts_shop_disconnect: Response: 
+
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+Content-Length: 95
+X-Api-Deprecation-Info: API for Business Version 1.3 is now live. To avoid disruption to your business, we recommend you migrate all calls to v1.3 as soon as possible. Please visit our migration guide for more details: https://ads.tiktok.com/marketing_api/docs?id=1740029169927169
+X-Domain-Change-Info: We have moved to the new domain business-api.tiktok.com for API services after the Platform Upgrade on 09/30/2021. Please update all of your requests with the new domain if you haven't done so already. For more information, please visit https://ads.tiktok.com/marketing_api/docs?rid=esb88xalm6m&id=1709207085043713
+X-Tt-Logid: 2024022601581532467B9095AE05C5418F
+Server-Timing: inner; dur=9
+x-tt-trace-host: 01628b09d1b07eee4c0ed5474e32a8930e96c58b77626b4064e5b762dc33cee3532157f66733c1397ae0c8913ff3ce9fa879c7a2055201d353dbb0b311908404cd36ad68925213f66fe56e43f7b352bcf1f6607f0b74fb3d8a120aefc9162a1b6a
+x-tt-trace-id: 00-24022601581532467B9095AE05C5418F-129129C71148059D-00
+Server: TLB
+Expires: Mon, 26 Feb 2024 01:58:16 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Mon, 26 Feb 2024 01:58:16 GMT
+X-Cache: TCP_MISS from a23-203-135-189.deploy.akamaitechnologies.com (AkamaiGHost/11.4.2.2-54704533) (-)
+Connection: close
+x-tt-trace-tag: id=16;cdn-cache=miss;type=dyn
+Server-Timing: cdn-cache; desc=MISS, edge; dur=1, origin; dur=45
+X-Origin-Response-Time: 45,23.203.135.189
+X-Akamai-Request-ID: 6b4dc62
+
+{"code":40001,"message":"Permission denied.","request_id":"2024022601581532467B9095AE05C5418F"}
+
