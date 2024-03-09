@@ -1,0 +1,35 @@
+.elementor-640 .elementor-element.elementor-element-e541a44 > .elementor-widget-container{padding:0px 0px 0px 0px;}.elementor-640 .elementor-element.elementor-element-e541a44{width:initial;max-width:initial;bottom:234px;}body:not(.rtl) .elementor-640 .elementor-element.elementor-element-e541a44{left:21px;}body.rtl .elementor-640 .elementor-element.elementor-element-e541a44{right:21px;}@media(min-width:768px){.elementor-640 .elementor-element.elementor-element-e6df6d2{width:100%;}}/* Start custom CSS for html, class: .elementor-element-e541a44 */.zalo_link:hover{
+    color:#333333!important;
+}/* End custom CSS */
+/* Start custom CSS for html, class: .elementor-element-1588404 */.middle-light:before{
+    content: "";
+    width: 40px;
+    height: 1px;
+    background: #1e1e1e;
+    display: inline-block;
+    margin-right: 15px;
+    vertical-align: middle;
+}
+.middle-light:after{
+    content: "";
+    width: 40px;
+    height: 1px;
+    background: #1e1e1e;
+    display: inline-block;
+    margin-left: 15px;
+    vertical-align: middle;
+}
+.reno-title{
+    margin: 0px auto;
+    width: 30%;
+}
+.reno-title h2{
+    text-align: center;
+    transition: 0.3s;
+    font-weight: 400;
+    font-size: 35px
+}
+.reno-title h2:hover{
+    color: #FF8A00;
+    cursor: pointer;
+}/* End custom CSS */
